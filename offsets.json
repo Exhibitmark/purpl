@@ -1,0 +1,40 @@
+{
+  "tls":{
+    "type": "pointer",
+    "address": "DF3110"
+  },
+  "tick":{
+    "type": "ml_pointer",
+    "addresses":["13B8EC0"],
+    "offsets":["2"]
+  },
+  "checkpoint":{
+    "type": "offset",
+    "address":"D4F66E"
+  },
+  "revert":{
+    "type": "offset",
+    "address":"D4F66D"
+  },
+  "wireframe":{
+    "type": "offset",
+    "address":"CF31D4"
+  },
+  "double":{
+    "type": "offset",
+    "address":"DF0AC4"
+  },
+  "hud":{
+    "type": "offset",
+    "address":"837C21"
+  },
+  "jump":{
+    "type": "offset",
+    "address":"13B6115"
+  },
+  "player_coord":{
+    "type":"ml_pointer",
+    "addresses":["13B8E80","1C8","30","170","0","68"],
+    "offsets":["80"]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "keys": {
+    "57":"restart",
+    "52":"checkpoint", 
+    "38":"wireframe",
+    "39":"jump",
+    "40":"double",
+    "9":"revert",
+    "72":"hud",
+    "48": "tick"
+  },
+  "buttons": {
+    "x":"jump",
+    "start":"restart",
+    "back":"checkpoint",
+    "xbox":"wireframe",
+    "dpad_down":"double",
+    "dpad_up":"revert",
+    "dpad_right":"hud",
+    "dpad_left": "tick"
+  }
+}

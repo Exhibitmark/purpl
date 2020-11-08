@@ -1,0 +1,17 @@
+{
+  "name": "purpl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "purpl.js",
+  "scripts": {
+    "build": "pkg purpl.js --targets node12-win-x64",
+    "package": "cp -r ./dependencies/* purpl-build | mv purpl.exe purpl-build | cp config.json purpl-build"
+  },
+  "author": "Mark",
+  "license": "MIT",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "gamepad": "github:warp/node-gamepad#node-12-support",
+    "iohook": "^0.6.6"
+  }
+}
